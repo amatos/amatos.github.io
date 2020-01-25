@@ -1,0 +1,77 @@
+# Set theme
+remote_theme: daviddarnes/alembic
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+- jekyll-remote-theme
+
+# Site settings
+url: 'https://alberth.matos.cc'
+baseurl: ''
+title: 'Thoughts Given Form'
+description: 'My own little corner of the web.'
+permalink: pretty
+logo: "/assets/logo.jpg"
+
+social: # jekyll-seo-tag > social overrides
+  name: Alberth Matos # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/alberthmatos
+    - https://www.facebook.com/alberth.matos
+    - https://www.linkedin.com/in/alberthmatos
+    - https://github.com/amatos
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+twitter:
+  username: alberthmatos # jekyll-seo-tag > Owners twitter username
+author: 'Alberth Matos' # jekyll-seo-tag > default author
+
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Header nav
+navigation_header:
+- title: Home
+  url: /
+- title: Blog
+  url: /blog/
+- title: Categories
+  url: /categories/
+# - title: R&eacute;sum&eacute;
+#   url: /resume/
+- title: Search
+  url: /search/
+- title: Photos
+  url: https://alberthmatos.myportfolio.com
+
+# Footer nav
+navigation_footer:
+- title: Back to top
+  url: "#top"
+# - title: Site designed using Alembic, created by David Darnes
+#   url: https://darn.es
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: ""
+    feature_text: |
+      ## My thoughts and ideas
+    feature_image: "/assets/blog_title.jpg"
