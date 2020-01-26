@@ -75,3 +75,5 @@ collections:
     feature_text: |
       ## My thoughts and ideas
     feature_image: "/assets/blog_title.jpg"
+
+theme: jekyll-theme-minimal
