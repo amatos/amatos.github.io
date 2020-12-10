@@ -61,6 +61,8 @@ navigation_header:
 
 # Footer nav
 navigation_footer:
+- title: PGP / GPG key
+  url: /pgpkey.html
 - title: Back to top
   url: "#top"
 # - title: Site designed using Alembic, created by David Darnes
