@@ -61,6 +61,8 @@ navigation_header:
 
 # Footer nav
 navigation_footer:
+- title: KeyOxide identity
+  url: https://keyoxide.org/hkp/alberth@matos.cc
 - title: PGP / GPG key
   url: /pgpkey.html
 - title: Back to top
