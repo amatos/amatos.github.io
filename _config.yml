@@ -1,5 +1,5 @@
 # Set theme
-remote_theme: daviddarnes/alembic
+remote_theme: daviddarnes/alembic@main
 
 # File excludes
 exclude:
@@ -14,8 +14,9 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-redirect-from
-- jekyll-default-layout
 - jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
 - jemoji
 - jekyll-remote-theme
 
@@ -24,8 +25,13 @@ url: 'https://alberth.matos.cc'
 baseurl: ''
 title: 'Thoughts Given Form'
 description: 'My own little corner of the web.'
-permalink: pretty
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 logo: "/assets/logo.jpg"
+encoding: utf-8 # Make sure the encoding is right
+lang: en-US # Set the site language
 
 social: # jekyll-seo-tag > social overrides
   name: Alberth Matos # jekyll-seo-tag > real name
@@ -38,6 +44,7 @@ jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @repl
 twitter:
   username: alberthmatos # jekyll-seo-tag > Owners twitter username
 author: 'Alberth Matos' # jekyll-seo-tag > default author
+email: blogalberth@matos.cc
 
 
 # Pagination
