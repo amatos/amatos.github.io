@@ -4,7 +4,7 @@ title: The day before the bandages come off
 category: CMT
 ---
 
-So, you know how yesterday I said, "I’m not sure I’ll have the stomach to look, much less take pictures, MUCH less post them, but… I likely will."
+So, you know how [yesterday I said]({% post_url 2022-05-09-Bandages-come-off-tomorrow %}), "I’m not sure I’ll have the stomach to look, much less take pictures, MUCH less post them, but… I likely will."
 
 Turns out I had the stomach.
 I :
