@@ -7,6 +7,8 @@ feature_text: |
   My little corner of the web.
 ---
 
+You probably want to go [/blog/](here)
+
 Nihil sub sole novum nec valet quisquam dicere ecce hoc recens est iam enim praecessit in saeculis quae fuerunt ante nos.
 
 Or, in more colloquial english:
