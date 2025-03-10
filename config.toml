@@ -1,0 +1,38 @@
+baseURL = "http://matos.cc/"
+languageCode = "en-us"
+title = "Thoughts Given Form"
+theme = "ananke"
+
+
+[params]
+  site_logo = "matoscc.svg"
+  background_color_class = "bg-washed-blue"
+  body_classes = "avenir bg-washed-blue"
+  text_color = "black"
+  show_reading_time = true
+  sectionPagesMenu = "main"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/amatos"
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/alberthmatos"
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/alberth.matos"
+[[params.ananke_socials]]
+name = "keybase"
+url = "https://keybase.io/alberthmatos"
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://mstdn.social/@alberthmatos"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[permalinks]
+  blog = '/:year/:month/:title/'
+
