@@ -12,16 +12,19 @@ tags:
 From _Fasti_, VI, lines 771-772:
 
   *Tempora labuntur, tacitisque senescimus annis*,
+
   *et fugiunt freno non remorante dies*.
 
 More colloquially:
 
   The times slip away, and we grow old with the silent years,
+
   and the days flee unchecked by a rein.
 
 Hubernius rendered it as:
 
   *Tempora labuntur, tacitisque senescimus annis*;
+
   *Tempora mutantur, nosque mutamur in illis*.
 
 or,
